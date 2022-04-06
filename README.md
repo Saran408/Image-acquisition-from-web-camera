@@ -28,6 +28,9 @@ End the program and close the output video windows by pressing 'q'.
 ### Developed By: Saran M
 ### Register No:212220230044
 
+
+
+
 ## i) Write the frame as JPG file
 
 import cv2
