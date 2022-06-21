@@ -1,4 +1,7 @@
-# Image-Acquisition-from-Web-Camera
+### EXP NO: 02
+### DATE:
+
+# <p align='center'> Image-Acquisition-from-Web-Camera</p>
 ## Aim:
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
@@ -29,8 +32,6 @@ End the program and close the output video windows by pressing 'q'.
 ### Register No:212220230044
 
 
-
-
 ## i) Write the frame as JPG file
 
 import cv2
@@ -44,9 +45,6 @@ while(True):
     result = False
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-
-
-
 
 
 ## ii) Display the video
@@ -64,8 +62,6 @@ while(True):
         break
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-
-
 
 
 ## iii) Display the video by resizing the window
@@ -98,8 +94,6 @@ videoCaptureObject.release()
 cv2.destroyAllWindows()
 
 
-
-
 ## iv) Rotate and display the video
 
 import cv2
@@ -129,7 +123,6 @@ while True:
         break
 videoCaptureObject.release()
 cv2.destroyAllWindows()
-
 
 ```
 ## Output
